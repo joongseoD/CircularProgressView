@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CircularProgressBarView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'CircularProgressBarView.'
   s.description      = 'CircularProgressBarView.'
   s.homepage         = 'https://github.com/joongseod/CircularProgressView'

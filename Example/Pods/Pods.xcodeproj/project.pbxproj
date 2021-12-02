@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		08443402D46033458EE4E28BDBB4E054 /* Pods-CircularProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA172666A3AAABAAD8A7B1FAE8595951 /* Pods-CircularProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C35261E3CF06EE5E50F0114E660981F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		259B5DC42758CB6200D33EEC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B5DC32758CB6200D33EEC /* CircularProgressView.swift */; };
+		2543D58D2758D4CF008B512A /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543D58C2758D4CF008B512A /* CircularProgressView.swift */; };
 		29FA9BF4FF1D35EBE9C77F92CA7FCBF0 /* CircularProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9FFBD4853A878D43F95D8D3AC0CF7E /* CircularProgressView-dummy.m */; };
 		3492F762D23558FB3F3BE552257F3100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7E052F63A85A281BCAEE9CC578B56A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -37,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050B6AEA34894E155EE195D73BD6202E /* CircularProgressView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircularProgressView; path = CircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		050B6AEA34894E155EE195D73BD6202E /* CircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8FA8F4D6A562E5035D54FC368B14D0 /* CircularProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircularProgressView.debug.xcconfig; sourceTree = "<group>"; };
 		0F2042BC7AAA243A7F6B2DE9BFB646D0 /* Pods-CircularProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircularProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0F513155B63EFE159B9C3D927A0FA928 /* Pods-CircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1B9FFBD4853A878D43F95D8D3AC0CF7E /* CircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircularProgressView-dummy.m"; sourceTree = "<group>"; };
 		1C190AED06B858F5F94B3E3D368BD4DC /* Pods-CircularProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircularProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		259B5DC32758CB6200D33EEC /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		2543D58C2758D4CF008B512A /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = CircularProgressView/Classes/CircularProgressView.swift; sourceTree = "<group>"; };
 		2744A9D32400796ABE61205A66064F9B /* CircularProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircularProgressView-Info.plist"; sourceTree = "<group>"; };
 		3326E1B765161D58B2155AEE00AD66C2 /* CircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularProgressView-prefix.pch"; sourceTree = "<group>"; };
 		36DCCD49F6AE1238DC980145EBE8E80B /* Pods-CircularProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		C6347B4EFECE17B26C5352B6915BFC43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				050B6AEA34894E155EE195D73BD6202E /* CircularProgressView */,
+				050B6AEA34894E155EE195D73BD6202E /* CircularProgressView.framework */,
 				F7246AE339FF661029683980D7B9772F /* Pods-CircularProgressView_Example */,
 				6CCD4305972BC0965BDE58EF23614504 /* Pods-CircularProgressView_Tests */,
 			);
@@ -180,7 +180,7 @@
 		CE8607506C0E0ADC74C5E3FC7007C1EC /* CircularProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				259B5DC32758CB6200D33EEC /* CircularProgressView.swift */,
+				2543D58C2758D4CF008B512A /* CircularProgressView.swift */,
 				4C0573F854B8FB2CA269FE569F2D7F95 /* Pod */,
 				B467BF6180F65EECE210478832E18809 /* Support Files */,
 			);
@@ -306,7 +306,7 @@
 			);
 			name = CircularProgressView;
 			productName = CircularProgressView;
-			productReference = 050B6AEA34894E155EE195D73BD6202E /* CircularProgressView */;
+			productReference = 050B6AEA34894E155EE195D73BD6202E /* CircularProgressView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					664E1FB8683399A12EFD2DF59BBC0C0C = {
+						LastSwiftMigration = 1310;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,8 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2543D58D2758D4CF008B512A /* CircularProgressView.swift in Sources */,
 				29FA9BF4FF1D35EBE9C77F92CA7FCBF0 /* CircularProgressView-dummy.m in Sources */,
-				259B5DC42758CB6200D33EEC /* CircularProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C8FA8F4D6A562E5035D54FC368B14D0 /* CircularProgressView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -528,6 +534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -697,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D06F651A4C5489299EB4666572A9666 /* CircularProgressView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
