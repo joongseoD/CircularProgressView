@@ -10,6 +10,7 @@
 		07ED763AEFA133E61967D85166099569 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D49FB9CF6A5CD320DA7504C68CAF4 /* ReplaceMe.swift */; };
 		08443402D46033458EE4E28BDBB4E054 /* Pods-CircularProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA172666A3AAABAAD8A7B1FAE8595951 /* Pods-CircularProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C35261E3CF06EE5E50F0114E660981F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		259B5DC42758CB6200D33EEC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B5DC32758CB6200D33EEC /* CircularProgressView.swift */; };
 		29FA9BF4FF1D35EBE9C77F92CA7FCBF0 /* CircularProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9FFBD4853A878D43F95D8D3AC0CF7E /* CircularProgressView-dummy.m */; };
 		3492F762D23558FB3F3BE552257F3100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7E052F63A85A281BCAEE9CC578B56A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 		0F513155B63EFE159B9C3D927A0FA928 /* Pods-CircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1B9FFBD4853A878D43F95D8D3AC0CF7E /* CircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircularProgressView-dummy.m"; sourceTree = "<group>"; };
 		1C190AED06B858F5F94B3E3D368BD4DC /* Pods-CircularProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircularProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		259B5DC32758CB6200D33EEC /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		2744A9D32400796ABE61205A66064F9B /* CircularProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircularProgressView-Info.plist"; sourceTree = "<group>"; };
 		3326E1B765161D58B2155AEE00AD66C2 /* CircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularProgressView-prefix.pch"; sourceTree = "<group>"; };
 		36DCCD49F6AE1238DC980145EBE8E80B /* Pods-CircularProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				0D6D49FB9CF6A5CD320DA7504C68CAF4 /* ReplaceMe.swift */,
 				4C0573F854B8FB2CA269FE569F2D7F95 /* Pod */,
 				B467BF6180F65EECE210478832E18809 /* Support Files */,
+				259B5DC32758CB6200D33EEC /* CircularProgressView.swift */,
 			);
 			name = CircularProgressView;
 			path = ../..;
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FA9BF4FF1D35EBE9C77F92CA7FCBF0 /* CircularProgressView-dummy.m in Sources */,
+				259B5DC42758CB6200D33EEC /* CircularProgressView.swift in Sources */,
 				07ED763AEFA133E61967D85166099569 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
