@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F38D2AB889506566578299B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F38D2AB889506566578299B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2569BC6719CFAEEB6CD3EB36 /* Pods-CircularProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressView_Example.release.xcconfig"; path = "Target Support Files/Pods-CircularProgressView_Example/Pods-CircularProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		384546CF0598F9A98BDE467D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		384546CF0598F9A98BDE467D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3C97E15ACBC9E8F357317163 /* Pods_CircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D43BBCBBF5C5339F19F53F /* Pods_CircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CircularProgressView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		856C0C42BA7F411F49067EEB /* Pods-CircularProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressView_Example.debug.xcconfig"; path = "Target Support Files/Pods-CircularProgressView_Example/Pods-CircularProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		891DD4B2DDEA78662482EB51 /* CircularProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CircularProgressView.podspec; path = ../CircularProgressView.podspec; sourceTree = "<group>"; };
+		891DD4B2DDEA78662482EB51 /* CircularProgressBarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircularProgressBarView.podspec; path = ../CircularProgressBarView.podspec; sourceTree = "<group>"; };
 		BD191C161DE443619E057184 /* Pods-CircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressView_Tests.release.xcconfig"; path = "Target Support Files/Pods-CircularProgressView_Tests/Pods-CircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D697F30DAC9A753850266BD1 /* Pods-CircularProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CircularProgressView_Tests/Pods-CircularProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				D697F30DAC9A753850266BD1 /* Pods-CircularProgressView_Tests.debug.xcconfig */,
 				BD191C161DE443619E057184 /* Pods-CircularProgressView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +152,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				891DD4B2DDEA78662482EB51 /* CircularProgressView.podspec */,
+				891DD4B2DDEA78662482EB51 /* CircularProgressBarView.podspec */,
 				1F38D2AB889506566578299B /* README.md */,
 				384546CF0598F9A98BDE467D /* LICENSE */,
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

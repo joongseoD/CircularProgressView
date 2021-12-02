@@ -65,7 +65,7 @@
 		BC9DB6F4102D63E67F6B81273A33C511 /* Pods-CircularProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircularProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C2CFDD92B2EA470602DB6766A703E56D /* Pods-CircularProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircularProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBA972736109169775432FC1DFF4A4BA /* Pods-CircularProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CBE7972288FCAABCA0F4774B1FCA6260 /* CircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CBE7972288FCAABCA0F4774B1FCA6260 /* CircularProgressBarView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircularProgressBarView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DBA9CFEB68D7D1F4F6D212183D3D83A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9A53E1F72E8A526AFA35B06E00C0308 /* Pods-CircularProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularProgressView_Example-dummy.m"; sourceTree = "<group>"; };
 		F56A400F74C21AA8C6145064F2D12F2F /* Pods-CircularProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		4C0573F854B8FB2CA269FE569F2D7F95 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CBE7972288FCAABCA0F4774B1FCA6260 /* CircularProgressView.podspec */,
+				CBE7972288FCAABCA0F4774B1FCA6260 /* CircularProgressBarView.podspec */,
 				6D2ED197A583406B7B2638313F1AE27F /* LICENSE */,
 				DBA9CFEB68D7D1F4F6D212183D3D83A1 /* README.md */,
 			);
