@@ -45,7 +45,7 @@ public final class CircularProgressView: UIView {
     
     private func setup(shapeLayer: CAShapeLayer) {
         shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.lineCap = kCALineCapRound
+        shapeLayer.lineCap = .round
         shapeLayer.lineWidth = 10.0
     }
     
@@ -151,7 +151,7 @@ public extension CircularProgressView {
         let circularProgressAnimation = CABasicAnimation(keyPath: "strokeEnd")
         circularProgressAnimation.duration = duration
         circularProgressAnimation.toValue = progress
-        circularProgressAnimation.fillMode = kCAFillModeForwards
+        circularProgressAnimation.fillMode = .forwards
         circularProgressAnimation.isRemovedOnCompletion = false
         progressLayer.add(circularProgressAnimation, forKey: nil)
     }
