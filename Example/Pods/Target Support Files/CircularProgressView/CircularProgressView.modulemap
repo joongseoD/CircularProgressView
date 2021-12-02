@@ -1,0 +1,6 @@
+framework module CircularProgressView {
+  umbrella header "CircularProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,28 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CircularProgressView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CircularProgressView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/damor-js/CircularProgressView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '1.0.0'
+  s.summary          = 'CircularProgressView.'
+  s.description      = 'CircularProgressView.'
+  s.homepage         = 'https://github.com/joongseod/CircularProgressView'
+  s.screenshots     = 'https://user-images.githubusercontent.com/21167746/144393441-21d8fd56-717d-424f-a1bc-79e6870886db.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'damor-js' => 'ehdwndtj@naver.com' }
-  s.source           = { :git => 'https://github.com/damor-js/CircularProgressView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'joongseod' => 'ehdwndtj@naver.com' }
+  s.source           = { :git => 'https://github.com/joongseod/CircularProgressView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'CircularProgressView/Classes/**/*'
   
   # s.resource_bundles = {
